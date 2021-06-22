@@ -2,5 +2,5 @@
 
 https://.dnz.re
 
-consol based steganography stoft 
-for more infos go to https://www.youtube.com/watch?v=_GU0IRuqS54
+console based steganography soft  
+demo: https://www.youtube.com/watch?v=_GU0IRuqS54
