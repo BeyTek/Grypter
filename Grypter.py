@@ -51,7 +51,7 @@ def  menu():
     
     print(color("[1]Encrypt",Colors.red))
     print(color("[2]Decrypt",Colors.blue))
-    print(color("[3]Quit",Colors.yellow))
+    print(color("[3]Clean & Quit",Colors.yellow))
 
 menu()
 option = int(input("Choose A Number: "))
@@ -110,4 +110,11 @@ while option != 0:
             print("Enjoy!\n")
             print(color("www.dnz.re",Colors.blue))
             time.sleep(5)
+            quit()
+
+        if option == 3:
+            secure_delete.secure_delete('file.png')
+            secure_delete.secure_delete(home + "\\Desktop\\Grypter")
+            os.system('CLS')
+            time.sleep(3)
             quit()
